@@ -35,7 +35,6 @@ app.use(methodOverride('_method'));
 app.engine('ejs', ejsMate);
 app.use(express.static(path.join(__dirname, "/public")));
 
-const mongoUrl = 'mongodb://127.0.0.1:27017/airbnb';
 const dbUrl = process.env.ATLASDB_URL;
 
 main()
@@ -70,7 +69,7 @@ const validateReview = (req, res, next) => {
 const store = MongoStore.create({
     mongoUrl : dbUrl,
     crypto : {
-        secret: "myfaltucode",
+        secret: process.env.SECRET,
     },
     touchAfter: 24 * 3600,
 });
@@ -81,7 +80,7 @@ store.on("error", () => {
 
 const sessionOption = {
     store: store,
-    secret : "myfaltucode",
+    secret : process.env.SECRET,
     resave: false,
     saveUninitialized: true,
     cookie: {
