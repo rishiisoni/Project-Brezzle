@@ -1,4 +1,4 @@
-### Full Stack Web Application – Listings and Reviews Platform (MVC Architecture) 🚀
+### Full Stack Web Application – Listings and Reviews Platform (https://project-brezzle.onrender.com) 🚀
 
 - **MVC Architecture**: Designed the application following the Model-View-Controller (MVC) framework, promoting a clean separation of concerns between data models, user interfaces, and business logic.
   
