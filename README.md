@@ -4,7 +4,7 @@
   
 - **User Authentication & Authorization**: Integrated user sign-up, login, and authentication using Passport.js, ensuring role-based access and route protection for owners and reviewers.
 
-- **Listings Management (CRUD)**: Developed a system to create, read, update, and delete property listings, with image uploads using Multer and AWS S3 for cloud storage.
+- **Listings Management (CRUD)**: Developed a system to create, read, update, and delete property listings, with image uploads using Multer and MONGO ATLAS for cloud storage.
 
 - **Reviews & Ratings**: Implemented review functionality, allowing authenticated users to post, update, and delete reviews, with ownership checks to prevent unauthorized modifications.
 
@@ -16,6 +16,6 @@
 
 - **Custom Middleware**: Created middleware to handle user session management, authorization, and validation checks, streamlining business logic in the app.
 
-- **Version Control & Deployment**: Managed source code with Git and GitHub, and deployed the app on Heroku, using environment variables for cloud storage integration and security.
+- **Version Control & Deployment**: Managed source code with Git and GitHub, and deployed the app on Render, using environment variables for cloud storage integration and security.
 
 This project exemplifies the use of the MVC framework in a full-stack web application, combining secure authentication, seamless user interactions, and scalable cloud services.
