@@ -1,4 +1,4 @@
-### Full Stack Web Application – Listings and Reviews Platform (MVC Architecture)
+### Full Stack Web Application – Listings and Reviews Platform (MVC Architecture) 🚀
 
 - **MVC Architecture**: Designed the application following the Model-View-Controller (MVC) framework, promoting a clean separation of concerns between data models, user interfaces, and business logic.
   
@@ -19,3 +19,6 @@
 - **Version Control & Deployment**: Managed source code with Git and GitHub, and deployed the app on Render, using environment variables for cloud storage integration and security.
 
 This project exemplifies the use of the MVC framework in a full-stack web application, combining secure authentication, seamless user interactions, and scalable cloud services.
+**Note** :- The Responsiveness and Search Functionality is still in its developing phase and will be updated shortly.
+
+![Screenshot (58)](https://github.com/user-attachments/assets/c386af46-ee65-4c3d-9d20-fe17359928ef)
